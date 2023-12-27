@@ -181,4 +181,7 @@ body {
             'feature-2'
         ;
     }
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+    }
 }
